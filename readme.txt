@@ -5,3 +5,6 @@ Open terminal at this location and run the following commands
 2.uvicorn myapi:app --reload (This command sets up the server)
 On correct execution the terminal prints the address and port at which the server is running copy this address and add "/docs" and run this address on the browser
 You can now test the task.
+Assumptions Taken: 
+I am assuming that each  requeest will carry a user_id with it.
+Item list contains of 5 elements for now.
